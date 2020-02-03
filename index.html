@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        canvas {
+            border: 1px solid black;
+            margin-top: 2%;
+            margin-left: 25%;
+        }
+        #btn-1 {
+            padding: 10px 30px;
+            font-size: 20px;
+            color: whitesmoke;
+            background-color: rgb(0, 132, 255);
+            margin-left: 48%;
+            border: 1px solid;
+            border-radius: 25px;
+            margin-bottom: 30%;
+        }
+        #btn-2 {
+            padding-top: 7px;
+            padding-left: 10px;
+            margin-left: 5px;
+            background-color: rgb(0, 132, 255);
+            color: whitesmoke;
+            border: 1px solid;
+            border-radius: 10px;
+            font-size: 15px;
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 25px;
+            color: #233523;
+        }
+        #colors {
+            margin-left: 43%;
+            margin-top: 3%;
+            border: 1px solid black;
+        }
+        #size {
+            border: 1px solid black;
+            padding-top: 7px;
+            margin-top: 3%;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1><span style="font-size: 40px; color: rgba(216, 197, 33, 0.911);">#</span>Coder-wla-Qawd</h1>
+        <input type="color" id="colors" value="#45a049">
+        <input type="number" id="size" placeholder="  Enter Size Of Font"><label><button type="submit" onclick="sizes()" id="btn-2">OOK </button></label>
+    </div>
+    <div> 
+        <canvas id="c" width="800px" height="500px"></canvas><br>
+        <button type="submit" onclick ="window.location.reload()" id="btn-1">Rese</button>
+        <script src="paint.js"></script>
+    </div>
+</body>
+</html>
